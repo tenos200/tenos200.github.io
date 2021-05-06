@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-top: 0;
+  width: 100%;
+  background-color: #4d4f4f;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.navbar li {
+  display: inline;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_h2 {
+  text-align: center;
+  font-size: 0px;
+}
+
+.name_tim {
+  color: black;
+  font-size: 50px;
+  margin-left: 140px;
+}
+.subheader_h3 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.container1 {
+  margin-top: 0;
+  height: 800px;
+  background-image: url("/Users/timenos/website_tim/pictures/uniStrath.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_me_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.click_arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.btn_about_me {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn_about_me:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.material-icons {
+  margin-right: 10px;
+}
+
+.arrow_down {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_down:hover {
+  cursor: pointer;
+}
