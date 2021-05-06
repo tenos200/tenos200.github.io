@@ -8,6 +8,16 @@ html {
   padding: 0;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 250ms ease-in;
+}
 .navbar {
   margin-top: 0;
   width: 100%;
@@ -40,6 +50,7 @@ html {
   color: black;
   font-size: 50px;
   margin-left: 140px;
+  margin-top: 100px;
 }
 .subheader_h3 {
   font-size: 30px;
@@ -47,28 +58,36 @@ html {
 }
 
 .container1 {
-  margin-top: 0;
-  height: 800px;
   background-image: url("https://tenos200.github.io/pictures/uniStrath.PNG");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1000px;
+  margin: 0 auto !important;
+}
+
+.container2 {
+  display: flex;
 }
 .about_me_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  font-size: 0px;
 }
 
 .click_arrow {
   display: flex;
-  justify-content: center;
+  align-self: flex-end;
   margin-bottom: 0px;
 }
 
+.about_me_text {
+  display: flex;
+}
 .btn_about_me {
   border: none;
   background-color: transparent;
   font-size: 20px;
+  margin-left: 40px;
   font-weight: bold;
 }
 .btn_about_me:hover {
@@ -90,6 +109,34 @@ html {
   -webkit-transform: rotate(45deg);
 }
 
+.next_section {
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
 .arrow_down:hover {
   cursor: pointer;
+}
+
+.who_am_i_container {
+  height: 100px;
+  width: 100%;
+  background-color: #4d4f4f;
+}
+.header_who {
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.picture_header {
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about_me_text_picture {
+  display: flex;
+  flex-direction: row;
 }

@@ -5,12 +5,13 @@
     <title>Tim Enos</title>
   </head>
   <body>
-    <div class="navbar">
-      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="/Users/timenos/website_tim/css/style.css" />
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
       />
+		<header>
+    <div class="navbar" id="navbar">
       <ul>
         <li>
           <a href="/"
@@ -24,6 +25,8 @@
         </li>
       </ul>
     </div>
+		</header>
+
     <div class="container1">
       <div class="header_h2">gap</div>
       <h2 class="name_tim">Tim Enos</h3>
@@ -33,14 +36,24 @@
 	at the University of Strathclyde		
       </h3>
 			<div class="about_me_container">
-				<button class="btn_about_me" id="about_me">About me</button>
-			</div>
-			<div class="click_arrow">
-				<p><button class="arrow_down"></button></p>
+				<button class="btn_about_me" id="about_me" onClick="scrollToTim()">About me</button>
 			</div>
     </div>
-    <div class="container2"></div>
+			<div class="next_section" id="next_section"></div>
+				<h2 class="picture_header">Who Am I?</h2>
+    <div class="container2">
+				<div class=about_me_text>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis mi ipsum. Praesent pulvinar sapien et enim sodales aliquet. Cras imperdiet quam vitae commodo tempor. Vivamus dictum elit enim, a consequat enim volutpat sit amet. Duis id tortor feugiat, dictum est eu, lobortis nisi. Etiam ut molestie risus. Maecenas condimentum massa vitae convallis efficitur.
+					</p>
+				</div>
+				<div class="picture_container">
+					<img src="/Users/timenos/website_tim/pictures/tim_me.PNG" alt="" class="picture_tim">
+			</div>
+			
+		</div>
     <div class="container3"></div>
     <div class="conainer4"></div>
+		<script src="/Users/timenos/website_tim/javascript/main.js"></script>
   </body>
 </html>
