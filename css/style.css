@@ -39,6 +39,23 @@ header {
   color: white;
 }
 
+.container1 {
+  background-image: url("https://tenos200.github.io/pictures/uniStrath.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  margin: 0 auto !important;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container3 {
+}
+
 .header_h2 {
   text-align: center;
   font-size: 0px;
@@ -57,19 +74,6 @@ header {
   margin-left: 20px;
 }
 
-.container1 {
-  background-image: url("https://tenos200.github.io/pictures/uniStrath.PNG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-  margin: 0 auto !important;
-}
-
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .about_me_container {
   display: flex;
   flex-wrap: wrap;
@@ -141,4 +145,85 @@ header {
   font-family: Courier New, monospace;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+/* this section is about work experience*/
+
+.next_section2 {
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
+.workContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workContainer .gondolen {
+  flex: 0 1 400px; /*  No stretching: */
+  margin: 5px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+}
+
+.gondolen {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.haymarket {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.postNord {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.workContainer .haymarket {
+  height: 500px;
+  flex: 0 1 400px; /*  No stretching: */
+  margin: 5px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+}
+
+.workContainer .postNord {
+  height: 500px;
+  flex: 0 1 400px; /*  No stretching: */
+  background-color: white;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+}
+
+.gondolen_header {
+  font-family: Courier New, monospace;
+}
+.gondolen_picture_inside {
+  height: 400px;
+  width: 380px;
+}
+
+.haymarket_header {
+  font-family: Courier New, monospace;
+}
+.haymarket_picture_inside {
+  height: 400px;
+  width: 380px;
+}
+.postNord_header {
+  font-family: Courier New, monospace;
+}
+
+.postNord_picture {
+  height: 400px;
+  width: 380px;
 }
