@@ -22,14 +22,12 @@ header {
   margin-top: 0;
   width: 100%;
   background-color: #4d4f4f;
-  display: flex;
-  justify-content: center;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .navbar li {
   display: inline;
-  flex-wrap: wrap;
   padding: 20px;
   margin-right: 20px;
   text-align: center;
@@ -49,11 +47,13 @@ header {
 .name_tim {
   color: black;
   font-size: 50px;
+  font-family: Courier New, monospace;
   margin-left: 140px;
   margin-top: 100px;
 }
 .subheader_h3 {
-  font-size: 30px;
+  font-family: Courier New, monospace;
+  font-size: 25px;
   margin-left: 20px;
 }
 
@@ -67,6 +67,8 @@ header {
 
 .container2 {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .about_me_container {
   display: flex;
@@ -74,18 +76,14 @@ header {
   font-size: 0px;
 }
 
-.click_arrow {
-  display: flex;
-  align-self: flex-end;
-  margin-bottom: 0px;
-}
-
 .about_me_text {
   display: flex;
+  width: 50%;
 }
 .btn_about_me {
   border: none;
   background-color: transparent;
+  font-family: Courier New, monospace;
   font-size: 20px;
   margin-left: 40px;
   font-weight: bold;
@@ -93,6 +91,24 @@ header {
 .btn_about_me:hover {
   cursor: pointer;
   color: white;
+}
+
+.btn_scroll_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn_scroll_work {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier New, monospace;
+  margin-bottom: 20px;
+}
+.btn_scroll_work:hover {
+  cursor: pointer;
+  color: coral;
 }
 
 .material-icons {
@@ -104,29 +120,25 @@ header {
   background-color: white;
   width: 100%;
 }
-.arrow_down:hover {
-  cursor: pointer;
-}
 
-.who_am_i_container {
-  height: 100px;
-  width: 100%;
-  background-color: #4d4f4f;
+.picture_tim {
+  height: 600px;
 }
-.header_who {
-  align-items: center;
-  text-align: center;
-  margin-top: 10px;
-  color: black;
-}
-
 .picture_header {
   color: black;
+  font-family: Courier New, monospace;
   margin-top: 50px;
+  font-size: 40px;
   text-align: center;
 }
 
 .about_me_text_picture {
   display: flex;
   flex-direction: row;
+}
+.paragraph_about_me {
+  font-size: 25px;
+  font-family: Courier New, monospace;
+  margin-right: 20px;
+  margin-left: 20px;
 }
