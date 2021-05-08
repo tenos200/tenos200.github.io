@@ -1,6 +1,17 @@
 function scrollToTim() {
+	window.scrollTo({
+		top: 1000,
+		behavior: 'smooth'
+	});
+}
 
-	var aboutMeHeader = document.getElementById('next_section');
-	aboutMeHeader.scrollIntoView({behavior:'smooth'});
+function modalGondolen(){
+
+}
+
+function modalHaymarket(){
+
+}
+function modalPostnord(){
 
 }

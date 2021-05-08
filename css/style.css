@@ -51,7 +51,6 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 800px;
 }
 
 .container3 {
@@ -167,7 +166,6 @@ header {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -176,7 +174,6 @@ header {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -185,7 +182,6 @@ header {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
@@ -217,18 +213,20 @@ header {
   font-family: Courier New, monospace;
   color: white;
 }
-.gondolen_picture_inside {
+.gondolen_picture_outside {
   height: 400px;
   width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
 }
 
 .haymarket_header {
   font-family: Courier New, monospace;
   color: white;
 }
-.haymarket_picture_inside {
+.haymarket_picture_outside {
   height: 400px;
   width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
 }
 .postNord_header {
   font-family: Courier New, monospace;
@@ -238,12 +236,13 @@ header {
 .postNord_picture {
   height: 400px;
   width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
 }
 
 .openGondolenModal {
   background-color: #009879;
   cursor: pointer;
-  width: 380px;
+  width: 400px;
   height: 50px;
   border: none;
   border-radius: 5px;
@@ -264,7 +263,7 @@ header {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  width: 380px;
+  width: 400px;
   height: 50px;
   color: #fff;
   margin-top: 10px;
@@ -280,7 +279,7 @@ header {
 .openPostModal {
   background-color: #009879;
   cursor: pointer;
-  width: 380px;
+  width: 400px;
   height: 50px;
   border: none;
   border-radius: 5px;
@@ -294,4 +293,23 @@ header {
 
 .openPostModal:hover {
   background-color: coral;
+}
+
+.gondolenModal {
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  transform: translate(-50%, -50%);
+}
+
+.closeBtnGondolen {
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  cursor: pointer;
 }
