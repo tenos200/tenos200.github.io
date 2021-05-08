@@ -51,6 +51,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 800px;
 }
 
 .container3 {
@@ -97,24 +98,6 @@ header {
   color: white;
 }
 
-.btn_scroll_container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.btn_scroll_work {
-  border: none;
-  background-color: transparent;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Courier New, monospace;
-  margin-bottom: 20px;
-}
-.btn_scroll_work:hover {
-  cursor: pointer;
-  color: coral;
-}
-
 .material-icons {
   margin-right: 10px;
 }
@@ -149,10 +132,22 @@ header {
 
 /* this section is about work experience*/
 
-.next_section2 {
-  height: 50px;
-  background-color: white;
+.container3 {
   width: 100%;
+  background-color: #1d1f1f;
+}
+
+.work_experience_header_container {
+  display: flex;
+  justify-content: center;
+}
+.work_experience_header {
+  font-family: Courier New, monospace;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 40px;
+  color: #fff;
+  margin-top: 20px;
 }
 .workContainer {
   display: flex;
@@ -163,67 +158,140 @@ header {
 .workContainer .gondolen {
   flex: 0 1 400px; /*  No stretching: */
   margin: 5px;
-  height: 500px;
-  background-color: white;
-  border: 1px solid black;
   display: flex;
+  background-color: #1d1f1f;
+  margin-right: 20px;
 }
 
 .gondolen {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .haymarket {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .postNord {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .workContainer .haymarket {
-  height: 500px;
   flex: 0 1 400px; /*  No stretching: */
   margin: 5px;
-  background-color: white;
-  border: 1px solid black;
   display: flex;
+  margin-right: 20px;
+  background-color: #1d1f1f;
 }
 
 .workContainer .postNord {
-  height: 500px;
   flex: 0 1 400px; /*  No stretching: */
-  background-color: white;
-  border: 1px solid black;
   margin: 5px;
   display: flex;
+  margin-right: 20px;
+  background-color: #1d1f1f;
+}
+
+.header_container_work {
+  border-bottom: 1px solid black;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #009879;
 }
 
 .gondolen_header {
   font-family: Courier New, monospace;
+  color: white;
 }
 .gondolen_picture_inside {
   height: 400px;
-  width: 380px;
+  width: 400px;
 }
 
 .haymarket_header {
   font-family: Courier New, monospace;
+  color: white;
 }
 .haymarket_picture_inside {
   height: 400px;
-  width: 380px;
+  width: 400px;
 }
 .postNord_header {
   font-family: Courier New, monospace;
+  color: white;
 }
 
 .postNord_picture {
   height: 400px;
+  width: 400px;
+}
+
+.openGondolenModal {
+  background-color: #009879;
+  cursor: pointer;
   width: 380px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier New, monospace;
+}
+
+.openGondolenModal:hover {
+  background-color: coral;
+}
+
+.openHaymarketModal {
+  background-color: #009879;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 380px;
+  height: 50px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier New, monospace;
+}
+.openHaymarketModal:hover {
+  background-color: coral;
+}
+
+.openPostModal {
+  background-color: #009879;
+  cursor: pointer;
+  width: 380px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Courier New, monospace;
+}
+
+.openPostModal:hover {
+  background-color: coral;
 }
