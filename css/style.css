@@ -31,6 +31,7 @@ header {
   padding: 20px;
   margin-right: 20px;
   text-align: center;
+  font-family: "Gravity-Book";
   margin-bottom: 20px;
   font-size: 25px;
 }
@@ -51,9 +52,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.container3 {
+  height: 700px;
 }
 
 .header_h2 {
@@ -63,13 +62,15 @@ header {
 
 .name_tim {
   color: black;
-  font-size: 50px;
-  font-family: Courier New, monospace;
+  font-size: 40px;
+  font-family: "Gravity-Book";
   margin-left: 140px;
+  letter-spacing: 10px;
   margin-top: 100px;
 }
 .subheader_h3 {
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
+  letter-spacing: 4px;
   font-size: 25px;
   margin-left: 20px;
 }
@@ -87,9 +88,10 @@ header {
 .btn_about_me {
   border: none;
   background-color: transparent;
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
   font-size: 20px;
-  margin-left: 40px;
+  margin-left: 20px;
   font-weight: bold;
 }
 .btn_about_me:hover {
@@ -113,8 +115,9 @@ header {
 }
 .picture_header {
   color: black;
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
   margin-top: 50px;
+  letter-spacing: 10px;
   font-size: 40px;
   text-align: center;
 }
@@ -124,25 +127,29 @@ header {
   flex-direction: row;
 }
 .paragraph_about_me {
-  font-size: 25px;
-  font-family: Courier New, monospace;
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-family: "Gravity-Regular";
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /* this section is about work experience*/
 
 .container3 {
-  width: 100%;
   background-color: #1d1f1f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work_experience_header_container {
-  display: flex;
-  justify-content: center;
+  margin-top: 40px;
 }
 .work_experience_header {
-  font-family: Courier New, monospace;
+  justify-content: center;
+  font-family: "Gravity-Regular";
+  letter-spacing: 10px;
   text-align: center;
   margin-top: 60px;
   font-size: 40px;
@@ -204,15 +211,17 @@ header {
 
 .header_container_work {
   border-bottom: 1px solid black;
-  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
   width: 400px;
   display: flex;
   justify-content: center;
-  background-color: #009879;
+  border: 1px solid white;
+  background-color: #1d1f1f;
+  margin-bottom: 20px;
 }
 
 .gondolen_header {
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
   color: white;
 }
 .gondolen_picture_outside {
@@ -222,7 +231,8 @@ header {
 }
 
 .haymarket_header {
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
   color: white;
 }
 .haymarket_picture_outside {
@@ -231,7 +241,8 @@ header {
   box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
 }
 .postNord_header {
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
   color: white;
 }
 
@@ -242,62 +253,63 @@ header {
 }
 
 .openGondolenModal {
-  background-color: #009879;
-  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
+  background-color: #1d1f1f;
   cursor: pointer;
   width: 400px;
   height: 50px;
-  border: none;
+  border: 1px solid white;
   border-radius: 2px;
   margin-top: 10px;
   margin-bottom: 10px;
+  letter-spacing: 5px;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
 }
 
 .openGondolenModal:hover {
-  background-color: coral;
+  background-color: #575757;
 }
 
 .openHaymarketModal {
-  background-color: #009879;
-  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
+  background-color: #1d1f1f;
   cursor: pointer;
   border: none;
   border-radius: 2px;
   width: 400px;
+  border: 1px solid white;
   height: 50px;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
+  letter-spacing: 5px;
   font-size: 20px;
   font-weight: bold;
-  font-family: Courier New, monospace;
+  font-family: "Gravity-Regular";
 }
 .openHaymarketModal:hover {
-  background-color: coral;
+  background-color: #575757;
 }
 
 .openPostModal {
-  background-color: #009879;
-  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
+  background-color: #1d1f1f;
   cursor: pointer;
   width: 400px;
   height: 50px;
-  border: none;
+  border: 1px solid white;
   border-radius: 2px;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: bold;
-  font-family: Courier New, monospace;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
 }
 
 .openPostModal:hover {
-  background-color: coral;
+  background-color: #575757;
 }
 
 .gondolenModal {
@@ -306,7 +318,6 @@ header {
   position: fixed;
   top: 60%;
   left: 50%;
-  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
   border: 1px solid black;
   transform: translate(-50%, -50%) scale(0);
   transition: 500ms ease-in-out;
@@ -319,6 +330,9 @@ header {
 .gondolenModalHeader {
   display: flex;
   justify-content: center;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+  font-size: 20px;
 }
 .gondolenModalContent {
   display: flex;
@@ -366,10 +380,76 @@ header {
   color: grey;
 }
 
+.haymarketModalHeader {
+  justify-content: center;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+  font-size: 20px;
+}
 .haymarketModalh2 {
   display: flex;
   justify-content: center;
 }
+
+.haymarketModalContent {
+  display: flex;
+}
+
+.haymarketPictureInside img {
+  height: 360px;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
+.postnordModal {
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+}
+
+.postnordModal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.closeBtnPostnord {
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.closeBtnPostnord:hover {
+  color: grey;
+}
+
+.postnordModalHeader {
+  justify-content: center;
+  letter-spacing: 5px;
+  font-family: "Gravity-Regular";
+  font-size: 20px;
+}
+.postnordModalContent {
+  display: flex;
+}
+
+.postnordPictureInside img {
+  height: 360px;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
+
+.postnordModalh2 {
+  display: flex;
+  justify-content: center;
+}
+
 #overlay {
   position: fixed;
   opacity: 0;
@@ -396,10 +476,12 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .styled-table thead tr {
-  background-color: #009879;
+  font-family: "Gravity-Regular";
+  background-color: #1d1f1f;
   color: #ffffff;
   text-align: left;
 }
@@ -407,9 +489,11 @@ header {
 .styled-table th,
 .styled-table td {
   padding: 12px 15px;
+  font-family: "Gravity-Regular";
 }
 .styled-table tbody tr {
   border-bottom: 1px solid #dddddd;
+  font-family: "Gravity-Regular";
 }
 
 .styled-table tbody tr:nth-of-type(even) {
@@ -417,9 +501,6 @@ header {
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-
-.styled-table tbody tr.active-row {
+  border-bottom: 2px solid #1d1f1f;
 }
 /* this section of styling is taken from dcode web dev from Australia*/

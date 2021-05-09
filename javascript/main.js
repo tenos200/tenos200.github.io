@@ -9,7 +9,7 @@ openModalButtons.foreach(button=> {
 		openModal(modal);
 
 	})
-})
+});
 
 
 closeModalButtons.foreach(button=> {
@@ -19,7 +19,7 @@ closeModalButtons.foreach(button=> {
 		closeModal(modal);
 
 	})
-})
+});
 
 
 
