@@ -109,6 +109,7 @@ header {
 
 .picture_tim {
   height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
 }
 .picture_header {
   color: black;
@@ -203,6 +204,7 @@ header {
 
 .header_container_work {
   border-bottom: 1px solid black;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
   width: 400px;
   display: flex;
   justify-content: center;
@@ -216,7 +218,7 @@ header {
 .gondolen_picture_outside {
   height: 400px;
   width: 400px;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
 }
 
 .haymarket_header {
@@ -226,7 +228,7 @@ header {
 .haymarket_picture_outside {
   height: 400px;
   width: 400px;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
 }
 .postNord_header {
   font-family: Courier New, monospace;
@@ -236,16 +238,17 @@ header {
 .postNord_picture {
   height: 400px;
   width: 400px;
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(255, 255, 255, 0.2) 8px 3px 8px 0px;
 }
 
 .openGondolenModal {
   background-color: #009879;
+  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
   cursor: pointer;
   width: 400px;
   height: 50px;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #fff;
@@ -260,9 +263,10 @@ header {
 
 .openHaymarketModal {
   background-color: #009879;
+  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
   cursor: pointer;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   width: 400px;
   height: 50px;
   color: #fff;
@@ -278,11 +282,12 @@ header {
 
 .openPostModal {
   background-color: #009879;
+  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
   cursor: pointer;
   width: 400px;
   height: 50px;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -301,15 +306,120 @@ header {
   position: fixed;
   top: 60%;
   left: 50%;
-  height: 400px;
-  width: 400px;
+  box-shadow: rgba(255, 255, 255, 0.2) 5px 3px 8px 0px;
   border: 1px solid black;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
 }
 
+.gondolenModal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.gondolenModalHeader {
+  display: flex;
+  justify-content: center;
+}
+.gondolenModalContent {
+  display: flex;
+}
+.gondolenPictureInside img {
+  height: 360px;
+  width: 400px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
+}
 .closeBtnGondolen {
   border: none;
   background-color: #fff;
   font-size: 30px;
+  float: right;
   cursor: pointer;
 }
+
+.closeBtnGondolen:hover {
+  color: grey;
+}
+.haymarketModal {
+  background-color: white;
+  display: inline-block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  border: 1px solid black;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 500ms ease-in-out;
+}
+
+.haymarketModal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.closeBtnHaymarket {
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+.closeBtnHaymarket:hover {
+  color: grey;
+}
+
+.haymarketModalh2 {
+  display: flex;
+  justify-content: center;
+}
+#overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+/* this section of styling is taken from dcode web dev from Australia*/
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+}
+/* this section of styling is taken from dcode web dev from Australia*/

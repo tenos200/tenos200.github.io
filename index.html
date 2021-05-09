@@ -56,15 +56,46 @@
 			<div class="work_experience_header_container">
 				<h2 class="work_experience_header">Work Experience</h3>
 			</div>
-				<div class="gondolenModal">
-					<button class="closeBtnGondolen" id="closeBtnGondolen">&times;</button>
-					<div class="gondolenModalHeader">Elit accusamus delectus voluptate a non, nulla at Voluptates eos velit atque quasi eaque Doloribus quas provident nemo nihil atque! Rem quam eos ad cupiditate officia Ratione provident magnam maiores sapiente perspiciatis Magnam deleniti dolorem fugiat nostrum labore Accusantium perspiciatis est tempora sit corrupti! Numquam eligendi ad et itaque voluptatum. Praesentium magni tempora vero in architecto? Sunt voluptatem quae ut</div>
+		<div id="overlay"></div>
+				<div class="gondolenModal" id="gondolenModal">
+					<button class="closeBtnGondolen" data-modal-close id="closeBtnGondolen" onClick="closeModal(gondolenModal)">&times;</button>
+					<div class="gondolenModalHeader">
+						<h2 class=gondolenModalh2>Erik's Gondolen</h2>
+						</div>
+						<div class="gondolenModalContent">
+							<div class="gondolenSkills">
+								<table class="styled-table">
+									<thead>
+										<tr>
+											<th>Skills</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Teamworking</td>
+											<td>Working in a bar is a team effort, it requires you to understander when your colleagues are in need of assistance and when to ask for assistance.</td>																																																		        </tr>
+										<tr class="active-row">
+											<td>Customer service</td>
+											<td>As a bartender your main focus is to make sure that the customer is satisfied, listening to the customer is essential to come to a conclusion to provide the best service to meet the customers requirements.</td>
+										</tr>
+											<td>Adaptiveness</td>
+											<td>There will occur situations where you have to be quick to adapt to the constantly changing cirucmstances in a bar.</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="gondolenPictureInside">
+								<img src="pictures/gondolen_inside.PNG" alt="">
+							</div>
+						</div>
 				</div>
-				<div class="haymarketModal">
+				<div class="haymarketModal" id="haymarketModal">
+					<button class="closeBtnHaymarket" data-modal-close id="closeBtnHaymarket" onClick="closeModal(haymarketModal)">&times;</button>
 					<div class="haymarketModalHeader">
+						<h2 class=haymarketModalh2>Haymarket by Scandic</h2>
 					</div>
 				</div>
-				
 				<div class="postnordModal">
 					<div class="postnordModalHeader">
 					</div>
@@ -75,14 +106,14 @@
 						<h2 class="gondolen_header">Gondolen</h2>
 					</div>
 						<img src="pictures/gondolen.PNG" class="gondolen_picture_outside" alt="">
-						<button class="openGondolenModal">Read more</button>
+						<button class="openGondolenModal" data-modal-target="#gondolenModal" onClick="openModal(gondolenModal)">Read more</button>
 				</div>
 				<div class="haymarket">
 					<div class="header_container_work">
 						<h2 class="haymarket_header">Haymarket</h2>
 					</div>
 						<img src="pictures/haymarket.PNG" class="haymarket_picture_outside" alt="">
-						<button class="openHaymarketModal">Read more</button>
+						<button class="openHaymarketModal" data-modal-target="#haymarketModal" onClick="openModal(haymarketModal)">Read more</button>
 				</div>
 				<div class="postNord">
 					<div class="header_container_work">
@@ -93,7 +124,9 @@
 				</div>
 			</div>
 		</div>
-    <div class="conainer4"></div>
+    <div class="conainer4">
+
+		</div>
 		<script src="javascript/main.js"></script>
   </body>
 </html>
