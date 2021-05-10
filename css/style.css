@@ -14,38 +14,29 @@ header {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-decoration: none;
+  justify-content: center;
   transition: background 250ms ease-in;
 }
-.navbar {
-  margin-top: 0;
-  width: 100%;
-  background-color: transparent;
-  margin-bottom: 0;
+
+.home_tim {
+  color: #333232;
   text-decoration: none;
+  font-family: "Gravity-Book";
+  height: 30px;
   text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
-.navbar li {
-  display: inline;
-  padding: 20px;
-  margin-right: 20px;
-  text-align: center;
-  font-family: "Gravity-Book";
-  margin-bottom: 20px;
-  font-size: 25px;
-  text-decoration: none;
+.scrolling-active {
+  transition: background 400ms ease-in;
+  box-shadow: 0px 3px 1em rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
-.navbar a {
-  text-decoration: none;
-  color: #333232;
-}
-.home_tim {
-  font-family: "Gravity-Book";
-  letter-spacing: 5px;
-  font-size: 25px;
-}
+
 .github_icon_light {
   height: 30px;
 }

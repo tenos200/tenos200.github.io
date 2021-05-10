@@ -2,6 +2,9 @@ const openModalBtn = document.querySelectorAll('[data-modal-target]');
 const closeModalBtn = document.querySelectorAll('[data-modal-close]');
 const overlay = document.getElementById('overlay');
 
+
+window.addEventListener('scroll', scrolling);
+
 openModalButtons.foreach(button=> {
 
 	button.addEventListener('click', () => {
@@ -22,6 +25,11 @@ closeModalButtons.foreach(button=> {
 });
 
 
+function scrolling() {
+	let header = document.querySelector('header');
+	header.classList.toggle('scrolling-active', window.scrollY > 0);
+
+}
 
 function openModal(modal) {
 	if (modal == null) {
