@@ -21,8 +21,9 @@ header {
 .navbar {
   margin-top: 0;
   width: 100%;
-  background-color: #4d4f4f;
+  background-color: transparent;
   margin-bottom: 0;
+  text-decoration: none;
   text-align: center;
 }
 
@@ -34,10 +35,25 @@ header {
   font-family: "Gravity-Book";
   margin-bottom: 20px;
   font-size: 25px;
+  text-decoration: none;
 }
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: #333232;
+}
+.home_tim {
+  font-family: "Gravity-Book";
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+.github_icon_light {
+  height: 30px;
+}
+
+.github_icon {
+  background-image: url(pictures/github_icon.png);
+  height: 30px;
+  cursor: pointer;
 }
 
 .container1 {
@@ -61,7 +77,7 @@ header {
 }
 
 .name_tim {
-  color: black;
+  color: #333232;
   font-size: 40px;
   font-family: "Gravity-Book";
   margin-left: 140px;
@@ -71,6 +87,7 @@ header {
 .subheader_h3 {
   font-family: "Gravity-Regular";
   letter-spacing: 4px;
+  color: #333232;
   font-size: 25px;
   margin-left: 20px;
 }
@@ -92,6 +109,7 @@ header {
   letter-spacing: 5px;
   font-size: 20px;
   margin-left: 20px;
+  color: #333232;
   font-weight: bold;
 }
 .btn_about_me:hover {
@@ -114,7 +132,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
 }
 .picture_header {
-  color: black;
+  color: #333232;
   font-family: "Gravity-Regular";
   margin-top: 50px;
   letter-spacing: 10px;
@@ -127,6 +145,7 @@ header {
   flex-direction: row;
 }
 .paragraph_about_me {
+  color: #333232;
   font-size: 20px;
   letter-spacing: 4px;
   font-family: "Gravity-Regular";
@@ -137,10 +156,11 @@ header {
 /* this section is about work experience*/
 
 .container3 {
-  background-color: #1d1f1f;
+  background-color: #333232;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 800px;
 }
 
 .work_experience_header_container {
@@ -160,13 +180,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .workContainer .gondolen {
   flex: 0 1 400px; /*  No stretching: */
   margin: 5px;
   display: flex;
-  background-color: #1d1f1f;
+  background-color: #333232;
   margin-right: 20px;
 }
 
@@ -198,7 +219,7 @@ header {
   margin: 5px;
   display: flex;
   margin-right: 20px;
-  background-color: #1d1f1f;
+  background-color: #333232;
 }
 
 .workContainer .postNord {
@@ -206,7 +227,7 @@ header {
   margin: 5px;
   display: flex;
   margin-right: 20px;
-  background-color: #1d1f1f;
+  background-color: #333232;
 }
 
 .header_container_work {
@@ -215,7 +236,7 @@ header {
   display: flex;
   justify-content: center;
   border: 1px solid white;
-  background-color: #1d1f1f;
+  background-color: #333232;
   margin-bottom: 20px;
 }
 
@@ -253,7 +274,7 @@ header {
 }
 
 .openGondolenModal {
-  background-color: #1d1f1f;
+  background-color: #333232;
   cursor: pointer;
   width: 400px;
   height: 50px;
@@ -273,7 +294,7 @@ header {
 }
 
 .openHaymarketModal {
-  background-color: #1d1f1f;
+  background-color: #333232;
   cursor: pointer;
   border: none;
   border-radius: 2px;
@@ -293,7 +314,7 @@ header {
 }
 
 .openPostModal {
-  background-color: #1d1f1f;
+  background-color: #333232;
   cursor: pointer;
   width: 400px;
   height: 50px;
@@ -312,6 +333,7 @@ header {
   background-color: #575757;
 }
 
+/* gondolen modal section */
 .gondolenModal {
   background-color: white;
   display: inline-block;
@@ -333,6 +355,7 @@ header {
   letter-spacing: 5px;
   font-family: "Gravity-Regular";
   font-size: 20px;
+  color: #333232;
 }
 .gondolenModalContent {
   display: flex;
@@ -354,6 +377,9 @@ header {
 .closeBtnGondolen:hover {
   color: grey;
 }
+/* gondolen modal section */
+
+/* Haymarket modal section */
 .haymarketModal {
   background-color: white;
   display: inline-block;
@@ -389,6 +415,7 @@ header {
 .haymarketModalh2 {
   display: flex;
   justify-content: center;
+  color: #333232;
 }
 
 .haymarketModalContent {
@@ -401,6 +428,9 @@ header {
   margin-right: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 5px 3px 8px 0px;
 }
+/* Haymarket modal section */
+
+/* Postnord modal section */
 .postnordModal {
   background-color: white;
   display: inline-block;
@@ -448,7 +478,10 @@ header {
 .postnordModalh2 {
   display: flex;
   justify-content: center;
+  color: #333232;
 }
+
+/* Postnord modal section */
 
 #overlay {
   position: fixed;
@@ -466,7 +499,83 @@ header {
   opacity: 1;
 }
 
-/* this section of styling is taken from dcode web dev from Australia*/
+/* Projects section */
+
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects_header_container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.projects_header {
+  font-size: 40px;
+  font-family: "Gravity-Regular";
+  letter-spacing: 5px;
+  color: #333232;
+}
+
+/* Technical skills section */
+
+.technicalSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.technicalSkillsHeaderContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Gravity-Regular";
+  margin-top: 60px;
+}
+
+.technicalSkillsh2 {
+  letter-spacing: 5px;
+  color: #333232;
+  font-size: 30px;
+}
+
+.technicalSkillsContent {
+  width: 100%;
+  font-family: "Gravity-Regular";
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.languages_skills {
+  color: #333232;
+  margin-right: 200px;
+}
+.languagesSkillsh2 {
+  letter-spacing: 3px;
+}
+
+.framework_skills {
+  color: #333232;
+  margin-right: 200px;
+}
+
+.frameworkSkillsh2 {
+  letter-spacing: 3px;
+}
+.operatingsystem_skills {
+  color: #333232;
+}
+.osSkillsh2 {
+  letter-spacing: 3px;
+}
+
+/* Technical skills section */
+
+/* this section of styling is taken from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
 
 .styled-table {
   border-collapse: collapse;
@@ -481,7 +590,7 @@ header {
 
 .styled-table thead tr {
   font-family: "Gravity-Regular";
-  background-color: #1d1f1f;
+  background-color: #333232;
   color: #ffffff;
   text-align: left;
 }
@@ -501,6 +610,41 @@ header {
 }
 
 .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #333232;
+}
+.styled-table-projects {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.styled-table-projects thead tr {
+  font-family: "Gravity-Regular";
+  background-color: #333232;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table-projects th,
+.styled-table-projects td {
+  padding: 12px 15px;
+  font-family: "Gravity-Regular";
+}
+.styled-table-projects tbody tr {
+  border-bottom: 1px solid #dddddd;
+  font-family: "Gravity-Regular";
+}
+
+.styled-table-projects tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table-projects tbody tr:last-of-type {
   border-bottom: 2px solid #1d1f1f;
 }
-/* this section of styling is taken from dcode web dev from Australia*/
+/* this section of styling is taken from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
