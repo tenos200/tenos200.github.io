@@ -2,29 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tim Enos</title>
+    <title>TIM ENOS</title>
   </head>
   <body>
-    <div class="navbar">
-      <link rel="stylesheet" href="css/style.css" />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      />
-      <ul>
-        <li>
-          <a href="/index.html"
-            ><span class="material-icons">home</span>Home</a
-          >
-        </li>
-        <li>
-          <a href="/contact.html">
-            <span class="material-icons">contact_page</span>Contact</a
-          >
-        </li>
-      </ul>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <header>
+      <a href="/" class="home_tim">TIM ENOS</a>
+      <a href="/contact.html" class="contact_tim">CONTACT</a>
+    </header>
+
+    <div class="contact_container">
+      <div class="contact_header_container">
+        <h2 class="contact_header">Send me an email</h2>
+      </div>
     </div>
-      <div class="contact_container"></div>
+    <div class="form_container">
+      <form action="">
+        <label class="fname" for="fname">Firstname</label>
+        <input type="text" id="fname" name="firstname" placeholder="John" />
+
+        <label class="sname" for="sname">Surname</label>
+        <input type="text" id="fname" name="surname" placeholder="Doe" />
+
+        <label class="email" for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="John.Doe@gmail.com"
+        />
+        <label for="reason">Reason</label>
+        <select id="reason" name="reason">
+          <option value="Business">Business</option>
+          <option value="Personal">Personal</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+      </form>
     </div>
+
+    <script src="javascript/main.js"></script>
   </body>
 </html>

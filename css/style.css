@@ -22,12 +22,23 @@ header {
 .home_tim {
   color: #333232;
   text-decoration: none;
-  font-family: "Gravity-Book";
+  font-family: "Gravity-Regular";
   height: 30px;
-  text-align: center;
   letter-spacing: 5px;
   margin-top: 20px;
-  font-size: 25px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact_tim {
+  margin-left: 50px;
+  color: #333232;
+  text-decoration: none;
+  font-family: "Gravity-Regular";
+  height: 30px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -295,3 +306,19 @@ header {
   border-bottom: 2px solid #1d1f1f;
 }
 /* this section of styling is taken from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+
+/* This section is for the contact page*/
+
+.contact_container {
+  display: flex;
+  font-family: "Gravity-Regular";
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.contact_header {
+  font-family: "Gravity-Regular";
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+}
