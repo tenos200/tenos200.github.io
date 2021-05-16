@@ -56,9 +56,9 @@ header {
 }
 
 .container2 {
-  background-image: url(pictures/tim_enos.jpeg);
+  /*background-image: url(pictures/tim_enos.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   height: 1000px;
   display: flex;
   flex-wrap: wrap;
