@@ -16,7 +16,7 @@
         <h2 class="contact_header">Send me an email</h2>
       </div>
       <div class="form_container">
-        <form action="https://formsubmit.co/tenos200@gmail.com" method="POST">
+        <form action="contactform.php" method="POST">
           <label class="fname" for="fname">Firstname</label>
           <input
             type="text"
@@ -56,7 +56,14 @@
             placeholder="Write something.."
             style="height: 200px"
           ></textarea>
-          <button class="send_msg_btn" id="send_msg_btn">Send</button>
+          <button
+            type="submit"
+            class="send_msg_btn"
+            id="send_msg_btn"
+            name="submit"
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>
