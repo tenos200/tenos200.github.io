@@ -311,14 +311,65 @@ header {
 
 .contact_container {
   display: flex;
+  flex-direction: column;
   font-family: "Gravity-Regular";
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
   margin-top: 100px;
+  background-color: #f3f3f3;
+  width: 800px;
+  height: 700px;
 }
 
+.form_container {
+  justify-content: center;
+  font-family: "Gravity-Regular";
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 700px;
+}
+
+.contact_header_container {
+  display: flex;
+  justify-content: center;
+}
 .contact_header {
+  display: flex;
   font-family: "Gravity-Regular";
   font-weight: normal;
   font-size: 20px;
   text-decoration: none;
+}
+
+/* section from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.send_msg_btn {
+  background-color: #333232;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.send_msg_btn:hover {
+  background-color: #04aa6d;
 }
