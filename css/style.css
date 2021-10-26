@@ -256,18 +256,22 @@ header {
 .styled-table th,
 .styled-table td {
   padding: 12px 15px;
+  font-size: 0.9em;
   font-family: "Gravity-Regular";
 }
 .styled-table tbody tr {
   border-bottom: 1px solid #dddddd;
+  font-size: 0.9em;
   font-family: "Gravity-Regular";
 }
 
 .styled-table tbody tr:nth-of-type(even) {
+  font-size: 0.9em;
   background-color: #f3f3f3;
 }
 
 .styled-table tbody tr:last-of-type {
+  font-size: 0.9em;
   border-bottom: 2px solid #333232;
 }
 .styled-table-projects {
@@ -283,6 +287,7 @@ header {
 
 .styled-table-projects thead tr {
   font-family: "Gravity-Regular";
+  font-size: 0.9em;
   background-color: #333232;
   color: #ffffff;
   text-align: left;
@@ -291,18 +296,22 @@ header {
 .styled-table-projects th,
 .styled-table-projects td {
   padding: 12px 15px;
+  font-size: 0.9em;
   font-family: "Gravity-Regular";
 }
 .styled-table-projects tbody tr {
   border-bottom: 1px solid #dddddd;
   font-family: "Gravity-Regular";
+  font-size: 0.9em;
 }
 
 .styled-table-projects tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
+  font-size: 0.9em;
 }
 
 .styled-table-projects tbody tr:last-of-type {
+  font-size: 0.9em;
   border-bottom: 2px solid #1d1f1f;
 }
 /* this section of styling is taken from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
