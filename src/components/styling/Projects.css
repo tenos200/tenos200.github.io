@@ -1,0 +1,48 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ProjectsHeader {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: "Gravity-Regular";
+}
+
+.Styled-table-projects {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-top: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.Styled-table-projects img {
+  width: 2rem;
+}
+.Styled-table-projects thead tr {
+  font-family: "Gravity-Regular";
+  background-color: #333232;
+  color: #ffffff;
+  text-align: left;
+}
+
+.Styled-table-projects th,
+.Styled-table-projects td {
+  padding: 12px 15px;
+  font-family: "Gravity-Regular";
+}
+.Styled-table-projects tbody tr {
+  border-bottom: 1px solid #dddddd;
+  font-family: "Gravity-Regular";
+}
+
+.Styled-table-projects tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.Styled-table-projects tbody tr:last-of-type {
+  border-bottom: 2px solid #1d1f1f;
+}
