@@ -18,10 +18,11 @@ export default function Skills() {
             </div>
 
             <div className="framework_skills">
-              <h3 className="frameworkSkillsh2">Frameworks</h3>
-              <li>Flask</li>
+              <h3 className="frameworkSkillsh2">Frameworks/Libraries</h3>
+              <li>Pygame</li>
+              <li>Pytorch</li>
               <li>React</li>
-              <li>Spring</li>
+              <li>Flask</li>
             </div>
 
             <div className="operatingsystem_skills">

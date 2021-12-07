@@ -16,6 +16,20 @@ export default function Projects() {
             </tr>
           </thead>
           <tbody>
+            <tr className="active-row">
+              <td>MNIST digit recogniser</td>
+              <td>
+                My first project with pytorch, a model is trained through a simple network with the MNIST data. The user is then able to enter a digit and the model will try to predict what digit the user has inputed.
+              </td>
+              <td>Python</td>
+              <td>
+                <a href="https://github.com/tenos200/numberRecognizer"
+                  ><img
+                    src={logo}
+                    alt=""
+                /></a>
+              </td>
+            </tr>
             <tr>
               <td>Simple shell</td>
               <td>
