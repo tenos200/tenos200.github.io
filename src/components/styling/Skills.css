@@ -1,28 +1,90 @@
-.SkillsContainer {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+/* size for mobile phone */
+
+@media (max-width: 480px) {
+  .SkillsContainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .technicalSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .technicalSkillsh2 {
+    letter-spacing: 0.3rem;
+    display: flex;
+    font-family: "Gravity-Regular";
+  }
+  .technicalSkillsHeaderContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Gravity-Regular";
+  }
+
+  .technicalSkillsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gravity-Book";
+  }
+
+  .languages_skills {
+    margin-right: 4rem;
+  }
+
+  .framework_skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .operatingsystem_skills {
+    margin-right: 2rem;
+  }
+
+  .languagesSkillsh2 {
+    font-size: 1rem;
+  }
+  .frameworkSkillsh2 {
+    font-size: 1rem;
+  }
+  .osSkillsh2 {
+    font-size: 1rem;
+  }
 }
 
-.technicalSkills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+/* size for desktop and larger screens */
+@media only screen and(min-width: 481px) {
+  .SkillsContainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 
-.technicalSkillsh2 {
-  letter-spacing: 0.3rem;
-  font-family: "Gravity-Regular";
-}
-.technicalSkillsHeaderContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: "Gravity-Regular";
-}
+  .technicalSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.technicalSkillsContent {
-  width: 100%;
-  justify-content: space-between;
-  display: flex;
-  font-family: "Gravity-Book";
+  .technicalSkillsh2 {
+    letter-spacing: 0.3rem;
+    font-family: "Gravity-Regular";
+  }
+  .technicalSkillsHeaderContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Gravity-Regular";
+  }
+
+  .technicalSkillsContent {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    font-family: "Gravity-Book";
+  }
 }

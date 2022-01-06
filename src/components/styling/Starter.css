@@ -1,70 +1,150 @@
-.Starter {
-  background-image: url("./pictures/uniStrath.PNG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  margin: 0 auto !important;
-  flex-direction: column;
-  height: 1000px;
-}
-.MainHeader {
-  font-family: "Gravity-Regular";
-  letter-spacing: 0.5rem;
-  font-size: 2rem;
-  margin-top: 5rem;
-  margin-left: 1rem;
-}
-.SubHeader {
-  font-family: "Gravity-Book";
-  letter-spacing: 0.3rem;
-  margin-top: 4rem;
-  margin-left: 1rem;
+/* styling for mobile phone */
+@media (max-width: 480px) {
+  .Starter {
+    background-image: url("./pictures/uniStrath.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 110%;
+    height: 1000px;
+    display: flex;
+    margin: 0 auto !important;
+    flex-direction: column;
+  }
+
+  .MainHeader {
+    font-family: "Gravity-Regular";
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .SubHeader {
+    font-family: "Gravity-Book";
+    letter-spacing: 0.3rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+
+  /* CSS 
+		Button taken from: https://getcssscan.com/css-buttons-examples
+	  */
+  .AboutMeButton {
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    appearance: none;
+    background-color: #fcfcfd;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395a;
+    cursor: pointer;
+    display: inline-flex;
+    width: 9rem;
+    font-family: "JetBrains Mono", monospace;
+    height: 3rem;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .AboutMeButton:focus {
+    box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  }
+
+  .AboutMeButton:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  .AboutMeButton-30:active {
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
 }
 
-/* CSS 
-	Button taken from: https://getcssscan.com/css-buttons-examples
-  */
-.AboutMeButton {
-  align-items: center;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  appearance: none;
-  background-color: #fcfcfd;
-  border-radius: 4px;
-  border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  box-sizing: border-box;
-  color: #36395a;
-  cursor: pointer;
-  display: inline-flex;
-  width: 9rem;
-  font-family: "JetBrains Mono", monospace;
-  height: 3rem;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  text-decoration: none;
-  transition: box-shadow 0.15s, transform 0.15s;
-  user-select: none;
-  -webkit-user-select: none;
-  white-space: nowrap;
-  font-size: 18px;
-}
+/* styling for desktop and widerscreens*/
+@media only screen and (min-width: 481px) {
+  .Starter {
+    background-image: url("./pictures/uniStrath.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto !important;
+    flex-direction: column;
+    height: 1000px;
+  }
 
-.AboutMeButton:focus {
-  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-}
+  .MainHeader {
+    font-family: "Gravity-Regular";
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .SubHeader {
+    font-family: "Gravity-Book";
+    letter-spacing: 0.3rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
 
-.AboutMeButton:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
+  /* CSS 
+		Button taken from: https://getcssscan.com/css-buttons-examples
+	  */
+  .AboutMeButton {
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    appearance: none;
+    background-color: #fcfcfd;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395a;
+    cursor: pointer;
+    display: inline-flex;
+    width: 9rem;
+    font-family: "JetBrains Mono", monospace;
+    height: 3rem;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    font-size: 18px;
+  }
 
-.AboutMeButton-30:active {
-  box-shadow: #d6d6e7 0 3px 7px inset;
-  transform: translateY(2px);
+  .AboutMeButton:focus {
+    box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  }
+
+  .AboutMeButton:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+      rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  .AboutMeButton-30:active {
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
 }
