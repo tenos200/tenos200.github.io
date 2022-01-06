@@ -16,6 +16,8 @@
   .technicalSkillsh2 {
     letter-spacing: 0.3rem;
     display: flex;
+    justify-content: center;
+    flex-basis: 100%;
     font-family: "Gravity-Regular";
   }
   .technicalSkillsHeaderContainer {
@@ -26,6 +28,7 @@
   }
 
   .technicalSkillsContent {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
