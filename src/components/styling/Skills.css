@@ -1,3 +1,36 @@
+/* size for desktop and larger screens */
+
+@media (min-width: 481px) {
+  .SkillsContainer {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .technicalSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .technicalSkillsh2 {
+    letter-spacing: 0.3rem;
+    font-family: "Gravity-Regular";
+  }
+  .technicalSkillsHeaderContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Gravity-Regular";
+  }
+
+  .technicalSkillsContent {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    font-family: "Gravity-Book";
+  }
+}
+
 /* size for mobile phone */
 
 @media (max-width: 480px) {
@@ -40,11 +73,6 @@
     margin-right: 4rem;
   }
 
-  .framework_skills {
-    display: flex;
-    flex-direction: column;
-  }
-
   .operatingsystem_skills {
     margin-right: 2rem;
   }
@@ -57,37 +85,5 @@
   }
   .osSkillsh2 {
     font-size: 1rem;
-  }
-}
-
-/* size for desktop and larger screens */
-@media only screen and(min-width: 481px) {
-  .SkillsContainer {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
-  .technicalSkills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .technicalSkillsh2 {
-    letter-spacing: 0.3rem;
-    font-family: "Gravity-Regular";
-  }
-  .technicalSkillsHeaderContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Gravity-Regular";
-  }
-
-  .technicalSkillsContent {
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    font-family: "Gravity-Book";
   }
 }
