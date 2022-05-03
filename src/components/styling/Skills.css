@@ -32,7 +32,6 @@
 }
 
 /* size for mobile phone */
-
 @media (max-width: 480px) {
   .SkillsContainer {
     margin-top: 3rem;

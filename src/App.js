@@ -8,7 +8,10 @@ import Starter from "./components/Starter";
 function App() {
 
 	return (
-	<main> 
+	<main style={{
+		width : '100vw',
+		overflow: 'hidden',
+		}}> 
 	<Navbar /> 
 	<Starter />
 	<About /> 

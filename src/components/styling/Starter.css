@@ -4,8 +4,7 @@
     background-image: url("./pictures/uniStrath.PNG");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 110%;
-    height: 1000px;
+    height: 100vh;
     display: flex;
     margin: 0 auto !important;
     flex-direction: column;
