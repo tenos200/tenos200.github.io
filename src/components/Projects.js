@@ -17,6 +17,20 @@ export default function Projects() {
           </thead>
           <tbody>
             <tr className="active-row">
+              <td>Programming exercise generator</td>
+              <td>
+				  First internship within the industry, worked as a research assistant under Dr Michael Cashmore and Dr Martin Goodfellow to develop a algorithm that generated simple programming exercises.
+              </td>
+              <td>Python, Javascript, PHP</td>
+              <td>
+                <a href="https://github.com/strathclyde-artificial-intelligence/TPAA_epsrc"
+                  ><img
+                    src={logo}
+                    alt=""
+                /></a>
+              </td>
+            </tr>
+            <tr className="active-row">
               <td>MNIST digit recogniser</td>
               <td>
                 My first project with pytorch, a model is trained through a simple network with the MNIST data. The user is then able to enter a digit and the model will try to predict what digit the user has inputed.

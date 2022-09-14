@@ -6,7 +6,7 @@ export default function Starter() {
 	return (
 		<section className="Starter" id="Starter">
 			<h1 className="MainHeader">Tim Enos</h1>
-			<h2 className="SubHeader">Third year Computer Science student <br />
+			<h2 className="SubHeader">4th year Computer Science student <br />
 at the University of Strathclyde</h2>
 			<ScrollButton/>
 		</section>
