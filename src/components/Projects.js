@@ -19,7 +19,7 @@ export default function Projects() {
             <tr className="active-row">
               <td>Programming exercise generator</td>
               <td>
-				  First internship within the industry, worked as a research assistant under Dr Michael Cashmore and Dr Martin Goodfellow to develop a algorithm that generated simple programming exercises.
+				  During this project I worked as a research assistant in the for Dr Michael Cashmore and Dr Martin Goodfellow to develop an algorithm that generated simple programming exercises.
               </td>
               <td>Python, Javascript, PHP</td>
               <td>

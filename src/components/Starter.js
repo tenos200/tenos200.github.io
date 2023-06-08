@@ -6,8 +6,8 @@ export default function Starter() {
 	return (
 		<section className="Starter" id="Starter">
 			<h1 className="MainHeader">Tim Enos</h1>
-			<h2 className="SubHeader">4th year Computer Science student <br />
-at the University of Strathclyde</h2>
+			<h2 className="SubHeader">MSc Computer Science student <br />
+at the University of Edinburgh</h2>
 			<ScrollButton/>
 		</section>
 	);

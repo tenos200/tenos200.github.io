@@ -1,7 +1,7 @@
 /* styling for mobile phone */
 @media (max-width: 480px) {
   .Starter {
-    background-image: url("./pictures/uniStrath.PNG");
+    background-image: url("./pictures/uniEdin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -20,7 +20,7 @@
   .SubHeader {
     font-family: "Gravity-Book";
     letter-spacing: 0.3rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 1rem;
   }
 
@@ -76,7 +76,7 @@
 /* styling for desktop and widerscreens*/
 @media only screen and (min-width: 481px) {
   .Starter {
-    background-image: url("./pictures/uniStrath.PNG");
+    background-image: url("./pictures/uniEdin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -95,7 +95,7 @@
   .SubHeader {
     font-family: "Gravity-Book";
     letter-spacing: 0.3rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 1rem;
   }
 
