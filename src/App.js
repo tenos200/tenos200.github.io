@@ -9,14 +9,13 @@ function App() {
 
 	return (
 	<main style={{
-		width : '100vw',
 		overflow: 'hidden',
 		}}> 
 	<Navbar /> 
 	<Starter />
 	<About /> 
-	<Projects /> 
 	<Skills /> 
+	<Projects /> 
 	</main > 
 		);
 }

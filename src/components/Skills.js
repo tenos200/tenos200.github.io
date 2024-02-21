@@ -10,8 +10,8 @@ export default function Skills() {
           <div className="technicalSkillsContent">
             <div className="languages_skills">
               <h3 className="languagesSkillsh2">Languages</h3>
-              <li>Java</li>
               <li>Python</li>
+              <li>Java</li>
               <li>C</li>
               <li>Javascript</li>
               <li>Haskell</li>
@@ -19,10 +19,11 @@ export default function Skills() {
 
             <div className="framework_skills">
               <h3 className="frameworkSkillsh2">Frameworks/Libraries</h3>
-              <li>Pygame</li>
               <li>Pytorch</li>
+              <li>Scikit-learn</li>
+              <li>Spring Boot</li>
+              <li>Docker</li>
               <li>React</li>
-              <li>Flask</li>
             </div>
 
             <div className="operatingsystem_skills">

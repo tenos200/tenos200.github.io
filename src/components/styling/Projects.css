@@ -20,6 +20,7 @@
     font-family: sans-serif;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .Styled-table-projects img {
@@ -68,6 +69,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
   }
   .ProjectsHeader {
     margin-top: 2rem;

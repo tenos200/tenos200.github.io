@@ -60,36 +60,6 @@ export default function Projects() {
               </td>
             </tr>
             <tr className="active-row">
-              <td>Snake</td>
-              <td>
-                A graphical implementation of snake, created with Pygame library.
-              </td>
-              <td>Python</td>
-              <td>
-                <a href="https://github.com/tenos200/snakeTim"
-                  ><img
-                    src={logo}
-                    alt=""
-                /></a>
-              </td>
-            </tr>
-            <tr>
-              <td>GCU Bake Reworked</td>
-              <td>
-                A reworked version of the GCU bake project but done in a website
-                format. Python flask was used to act as backend, SQLite as
-                database and Javascript for the frontend.
-              </td>
-              <td>Python, Javascript, HTML, CSS</td>
-              <td>
-                <a href="https://github.com/tenos200/FlaskGCUBake"
-                  ><img
-                    src={logo}
-                    alt=""
-                /></a>
-              </td>
-            </tr>
-            <tr className="active-row">
               <td>Cryptogram</td>
               <td>
                 A CLI based application that was created as a group project at
