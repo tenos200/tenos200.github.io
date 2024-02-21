@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a1b3ef1.chunk.css",
-    "main.js": "/static/js/main.fcd6aa1e.chunk.js",
-    "main.js.map": "/static/js/main.fcd6aa1e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5802c9c5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5802c9c5.js.map",
-    "static/js/2.165e336f.chunk.js": "/static/js/2.165e336f.chunk.js",
-    "static/js/2.165e336f.chunk.js.map": "/static/js/2.165e336f.chunk.js.map",
+    "main.css": "/static/css/main.2a3b7617.css",
+    "main.js": "/static/js/main.e76013ac.js",
+    "static/media/uniEdin.jpg": "/static/media/uniEdin.75375aabcec4cecab460.jpg",
+    "static/media/tim_enos.png": "/static/media/tim_enos.599fe45c59bff9621a8c.png",
     "index.html": "/index.html",
-    "static/css/main.8a1b3ef1.chunk.css.map": "/static/css/main.8a1b3ef1.chunk.css.map",
-    "static/js/2.165e336f.chunk.js.LICENSE.txt": "/static/js/2.165e336f.chunk.js.LICENSE.txt",
-    "static/media/About.css": "/static/media/tim_enos.599fe45c.png",
-    "static/media/Starter.css": "/static/media/uniEdin.75375aab.jpg"
+    "main.2a3b7617.css.map": "/static/css/main.2a3b7617.css.map",
+    "main.e76013ac.js.map": "/static/js/main.e76013ac.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5802c9c5.js",
-    "static/js/2.165e336f.chunk.js",
-    "static/css/main.8a1b3ef1.chunk.css",
-    "static/js/main.fcd6aa1e.chunk.js"
+    "static/css/main.2a3b7617.css",
+    "static/js/main.e76013ac.js"
   ]
 }
