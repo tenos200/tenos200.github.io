@@ -71,14 +71,14 @@ export default function Projects() {
               <td>Waiting for marks to be released.</td>
             </tr>
             <tr>
-              <td>Website Interview </td>
+              <td>Simple Trigram Builder</td>
               <td>
-                A simple website created to act as a presentation in the
-                interview with DR Reid.
+                implements a trigram language model for text generation 
+                and perplexity calculation.
               </td>
-              <td>Javascript, HTML, CSS</td>
+              <td>Python</td>
               <td>
-                <a href="https://github.com/tenos200/website_for_internship"
+                <a href="https://github.com/tenos200/simple_trigram"
                   ><img
                     src={logo}
                     alt=""
