@@ -10,11 +10,10 @@ export default function Skills() {
           <div className="technicalSkillsContent">
             <div className="languages_skills">
               <h3 className="languagesSkillsh2">Languages</h3>
-              <li>Python</li>
               <li>Java</li>
+              <li>Python</li>
               <li>C</li>
               <li>Javascript</li>
-              <li>Haskell</li>
             </div>
 
             <div className="framework_skills">
@@ -24,6 +23,7 @@ export default function Skills() {
               <li>Spring Boot</li>
               <li>Docker</li>
               <li>React</li>
+              <li>Apache Kafka</li>
             </div>
 
             <div className="operatingsystem_skills">
@@ -37,5 +37,4 @@ export default function Skills() {
       </div>
 		</section>
 	);
-
 }

@@ -60,17 +60,6 @@ export default function Projects() {
               </td>
             </tr>
             <tr className="active-row">
-              <td>Cryptogram</td>
-              <td>
-                A CLI based application that was created as a group project at
-                the my second year at university. The program allowed the user
-                to play and saved a cryptogram, including some other
-                functionalities.
-              </td>
-              <td>Java</td>
-              <td>Waiting for marks to be released.</td>
-            </tr>
-            <tr>
               <td>Simple Trigram Builder</td>
               <td>
                 implements a trigram language model for text generation 
