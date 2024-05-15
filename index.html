@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Tim Enos</div>
+        <div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            Tim Enos
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li>
+                    <a href="#about" onclick="toggleMenu()">About</a>
+                </li>
+                <li>
+                    <a href="#experience" onclick="toggleMenu()">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects" onclick="toggleMenu()">Projects</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img id="profile-picture-tim" src="./assets/profile-tim-rounded.png" alt="Tim Enos Profile Pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">
+                Hello I'm 
+            </p>
+            <h1 class="title">Tim Enos</h1>
+            <p class="section__text__p2">
+                MSc Computer Science Student
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Tim_Enos_resume.pdf')">
+                Download Cv</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/tim-enos-61447822b/'">
+                <img src="./assets/github.png" alt="GitHub Profile" class="icon" onclick="location.href='https://github.com/tenos200'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">
+            Get To Know More
+        </p>
+        <h1 class="title">
+           About Me 
+        </h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/Tim_ben_lomond.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>ESPRC Research Intern <br>University of Strathclyde </p>
+                        <br>
+                        <p>Bartender 4+ years<br> Eriks Gondolen, Restaurant Artilleriet</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>MSc Computer Science<br>1st BSc (Hons) Computer Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                <p>
+                    I'm a MSc Computer Science student at The University of Edinburgh,  equipped with a strong technical background and proven customer service skills. Adept in programming languages, data structures, algorithms, and machine learning. Equipped with excellent problem-solving abilities, analytical skills, and attention to detail.
+                    My current research project for my master thesis, supervised by Dr Shay Cohen, revolves around using Machine Learning techniques for Mathematical Information Retrieval.
+                </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Languages</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Swift</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C++</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Technologies</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PyTorch</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Git</h3>
+                    <p>Advanced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Docker</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Spring-Boot</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Spring-Boot</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+      <div class="projects-container">
+        <table class="Styled-table-projects">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Languages</th>
+        <th>GitHub</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="active-row">
+        <td>Programming exercise generator</td>
+        <td>
+            During this project I worked as a research assistant in the for Dr Michael Cashmore and Dr Martin Goodfellow to develop an algorithm that generated simple programming exercises.
+        </td>
+        <td>Python, Javascript, PHP</td>
+        <td>
+          <a href="https://github.com/strathclyde-artificial-intelligence/TPAA_epsrc"
+            ><img
+              src="./assets/github.png"
+              alt="github logo"
+          /></a>
+        </td>
+      </tr>
+      <tr class="active-row">
+        <td>MNIST digit recogniser</td>
+        <td>
+          My first project with pytorch, a model is trained through a simple network with the MNIST data. The user is then able to enter a digit and the model will try to predict what digit the user has inputed.
+        </td>
+        <td>Python</td>
+        <td>
+          <a href="https://github.com/tenos200/numberRecognizer"
+            ><img
+              src="./assets/github.png"
+              alt=""
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>Simple shell</td>
+        <td>
+          A simple shell for Linux, was built in 9 stages as a group work
+          2 year at Strathclyde.
+        </td>
+        <td>C</td>
+        <td>
+          <a href="https://github.com/tenos200/shell_c"
+            ><img
+              src="./assets/github.png"
+              alt=""
+          /></a>
+        </td>
+      </tr>
+      <tr class="active-row">
+        <td>Simple Trigram Builder</td>
+        <td>
+          implements a trigram language model for text generation 
+          and perplexity calculation.
+        </td>
+        <td>Python</td>
+        <td>
+          <a href="https://github.com/tenos200/simple_trigram"
+            ><img
+              src="./assets/github.png"
+              alt=""
+          /></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+      </div>
+  </section>
+    <script src="scripts.js"></script>
+    <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Tim Enos. All Rights Reserved.</p>
+      </footer>
+</body>
+</html>
