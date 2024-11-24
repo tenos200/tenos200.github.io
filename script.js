@@ -4,11 +4,3 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
-
-function downloadFile() {
-    // Replace the URL with the raw URL of your file
-    var fileUrl = "https://github.com/tenos200/tenos200.github.io/blob/main/assets/TimEnosResume.pdf";
-    
-    // Trigger file download
-    window.location.href = fileUrl;
-}
